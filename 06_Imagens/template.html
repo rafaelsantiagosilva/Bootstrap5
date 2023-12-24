@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>06: Imagens</title>
+		<!-- Bootstrap CSS CDN -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<h1 class="text-center">Imagens</h1>
+		<main class="container">
+			<h2 class="mt-2">Pontinhas Achatadas</h2>
+			<img src="./images/paris.jpg" alt="Paris" class="rounded" />
+
+			<h2 class="mt-2">Círculo</h2>
+			<img src="./images/newyork.jpg" alt="New York" class="rounded-circle" />
+
+			<h2 class="mt-2">Fotografia (com borda)</h2>
+			<img
+				src="./images/sanfran.jpg"
+				alt="São Francisco"
+				class="img-thumbnail"
+			/>
+
+			<h2 class="mt-2">Alinhando Imagens</h2>
+
+			<div class="container mb-4">
+				<h3 class="mt-2 text-center">Ínicio e Fim</h3>
+				<img src="./images/paris.jpg" alt="Paris" class="float-start" />
+				<img src="./images/paris.jpg" alt="Paris" class="float-end" />
+			</div>
+
+			<div class="container mt-4">
+				<h3 class="mt-2 text-center">Centralizada</h3>
+				<img
+					src="./images/newyork.jpg"
+					alt="New York"
+					class="mx-auto d-block"
+				/>
+			</div>
+
+			<h2>Imagens Responsivas</h2>
+			<div class="container-fluid">
+				<img src="./images/sanfran.jpg" alt="São Francisco" class="img-fluid" />
+			</div>
+		</main>
+		<!-- Bootstrap Js CDN -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
