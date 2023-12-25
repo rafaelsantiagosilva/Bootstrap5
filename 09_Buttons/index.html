@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>09: Botões</title>
+		<!-- Bootstrap CSS CDN -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<h1 class="text-center">Botões</h1>
+		<main class="container">
+			<div class="mt-4">
+				<h2>Estilos</h2>
+				<button class="btn">Básico</button>
+				<button class="btn btn-primary">Primário</button>
+				<button class="btn btn-secondary">Secundário</button>
+				<button class="btn btn-success">Sucesso</button>
+				<button class="btn btn-info">Info</button>
+				<button class="btn btn-warning">Cuidado</button>
+				<button class="btn btn-danger">Perigo</button>
+				<button class="btn btn-dark">Dark</button>
+				<button class="btn btn-light">Light</button>
+				<button class="btn btn-link">Link</button>
+			</div>
+
+			<div class="mt-4">
+				<h2>Outline</h2>
+				<button class="btn btn-outline-primary">Primário</button>
+				<button class="btn btn-outline-secondary">Secundário</button>
+				<button class="btn btn-outline-success">Sucesso</button>
+				<button class="btn btn-outline-info">Info</button>
+				<button class="btn btn-outline-warning">Cuidado</button>
+				<button class="btn btn-outline-danger">Perigo</button>
+				<button class="btn btn-outline-dark">Dark</button>
+				<button class="btn btn-outline-light">Light</button>
+			</div>
+
+			<div class="mt-4">
+				<h2>Tamanhos</h2>
+				<button class="btn btn-primary btn-lg">Grande</button>
+				<button class="btn btn-primary">Padrão</button>
+				<button class="btn btn-primary btn-sm">Pequeno</button>
+			</div>
+
+			<div class="mt-4">
+				<h2>Ocupando toda a largura</h2>
+				<div class="d-grid gap-4">
+					<!--Mudando a distancia entre os botoes com gap-->
+					<button class="btn btn-primary btn-block">Full Width</button>
+					<button class="btn btn-primary btn-block">Full Width</button>
+					<button class="btn btn-primary btn-block">Full Width</button>
+				</div>
+			</div>
+
+			<div class="mt-4">
+				<h2>Botões Ativados e Desativados</h2>
+				<button class="btn btn-primary">Padrão</button>
+				<button class="btn btn-primary active">Ativado</button>
+				<button class="btn btn-primary" disabled>Desativado</button>
+				<a href="#" class="btn btn-primary disabled">Link Desativado</a>
+			</div>
+
+			<div class="mt-4 mb-4">
+				<h2>Botões com Spinner</h2>
+				<button class="btn btn-primary">
+					<span class="spinner-border spinner-border-sm"></span>
+				</button>
+
+				<button class="btn btn-primary">
+					<span class="spinner-border spinner-border-sm"></span>
+					Loading...
+				</button>
+
+				<button class="btn btn-primary" disabled>
+					<span class="spinner-border spinner-border-sm"></span>
+					Loading...Desabilitado!
+				</button>
+
+				<button class="btn btn-primary" disabled>
+					<span class="spinner-grow spinner-grow-sm"></span>
+					Loading...Pulsando!
+				</button>
+			</div>
+		</main>
+		<!-- Bootstrap Js CDN -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
