@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>10: Grupos de Botões</title>
+		<!-- Bootstrap CSS CDN -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<h1 class="text-center">Grupos de Botões</h1>
+		<main class="container">
+			<div class="mt-4">
+				<h2>Padrão</h2>
+				<div class="btn-group">
+					<button class="btn btn-primary">Primário 01</button>
+					<button class="btn btn-primary">Primário 02</button
+					><button class="btn btn-primary">Primário 03</button>
+				</div>
+			</div>
+
+			<div class="mt-4">
+				<h2>Grande</h2>
+				<div class="btn-group btn-group-lg">
+					<button class="btn btn-primary">Primário 01</button>
+					<button class="btn btn-primary">Primário 02</button>
+					<button class="btn btn-primary">Primário 03</button>
+				</div>
+			</div>
+
+			<div class="mt-4">
+				<h2>Pequeno</h2>
+				<div class="btn-group btn-group-sm">
+					<button class="btn btn-primary">Primário 01</button>
+					<button class="btn btn-primary">Primário 02</button>
+					<button class="btn btn-primary">Primário 03</button>
+				</div>
+			</div>
+
+			<div class="mt-4">
+				<h2>Verticais</h2>
+				<div class="btn-group-vertical">
+					<button class="btn btn-primary">Primário 01</button>
+					<button class="btn btn-primary">Primário 02</button>
+					<button class="btn btn-primary">Primário 03</button>
+				</div>
+			</div>
+
+			<div class="mt-4">
+				<h2>Lado a Lado</h2>
+				<div class="btn-group">
+					<button class="btn btn-primary">Primário 01</button>
+					<button class="btn btn-primary">Primário 02</button>
+					<button class="btn btn-primary">Primário 03</button>
+				</div>
+
+				<div class="btn-group">
+					<button class="btn btn-primary">Primário 01</button>
+					<button class="btn btn-primary">Primário 02</button>
+					<button class="btn btn-primary">Primário 03</button>
+				</div>
+			</div>
+
+			<div style="margin-bottom: 8em" class="mt-4">
+				<h2>Botões e Dropdwons</h2>
+				<div class="btn-group">
+					<button class="btn btn-primary">Primário 01</button>
+					<button class="btn btn-primary">Primário 02</button>
+					<div class="btn-group">
+						<button
+							class="btn btn-primary dropdown-toggle"
+							data-bs-toggle="dropdown"
+						>
+							Primário 03
+						</button>
+						<div class="dropdown-menu">
+							<a href="#" class="dropdown-item">3.1</a>
+							<a href="#" class="dropdown-item">3.2</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<!-- Bootstrap Js CDN -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
